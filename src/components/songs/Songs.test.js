@@ -4,7 +4,7 @@ import Songs from './Songs';
 
 describe('Songs component', () => {
   it('renders Songs', () => {
-    const wrapper = shallow(<Songs name={'adsg'} songs={[
+    const wrapper = shallow(<Songs name={'test string'} songs={[
       {
         'video': false,
         'title': 'Liar',

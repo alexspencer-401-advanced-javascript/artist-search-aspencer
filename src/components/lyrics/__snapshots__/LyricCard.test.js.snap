@@ -3,7 +3,7 @@
 exports[`LyricCard component renders LyricCard 1`] = `
 <div>
   <pre>
-    asdga
+    test string
   </pre>
 </div>
 `;

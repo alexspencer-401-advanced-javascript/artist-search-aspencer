@@ -21,6 +21,6 @@ const useArtists = (page, query) => {
 
   return { artists, getArtistsFunction };
 
-}
+};
 
 export default useArtists;

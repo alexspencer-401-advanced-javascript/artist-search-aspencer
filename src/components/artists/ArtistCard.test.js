@@ -4,7 +4,7 @@ import ArtistCard from './ArtistCard';
 
 describe('ArtistCard component', () => {
   it('renders ArtistCard', () => {
-    const wrapper = shallow(<ArtistCard id={'adsg'} country={'adsg'} name={'adsg'} tags={[
+    const wrapper = shallow(<ArtistCard id={'test string'} country={'test string'} name={'test string'} tags={[
       {
         'count': 18,
         'name': 'rock'

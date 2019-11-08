@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styles from './ArtistCard.css';
 import { Link } from 'react-router-dom';
 
-
 const ArtistCard = ({ id, name, country, tags }) => {
 
   const tagElements = tags.map((tag, i) => {

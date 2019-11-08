@@ -2,13 +2,13 @@
 
 exports[`SongCard component renders SongCard 1`] = `
 <div
-  key="asdgadg"
+  key="test string"
 >
   <Link
-    to="/lyrics/asdg/adsgadsg"
+    to="/lyrics/test string/test string"
   >
     <p>
-      adsgadsg
+      test string
     </p>
   </Link>
 </div>

@@ -3,19 +3,19 @@
 exports[`AlbumCard component renders AlbumCard 1`] = `
 <div
   className="AlbumCard"
-  key="asdg"
+  key="test string"
 >
   <Link
-    to="/songs/asdg/asdh"
+    to="/songs/test string/test string"
   >
     <p
       className="AlbumCard"
     >
-      adshasdh
+      test string
     </p>
   </Link>
   <img
-    src="adsh"
+    src="test string"
   />
 </div>
 `;

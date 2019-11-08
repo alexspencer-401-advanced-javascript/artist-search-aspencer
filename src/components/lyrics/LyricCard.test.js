@@ -4,7 +4,7 @@ import LyricCard from './LyricCard';
 
 describe('LyricCard component', () => {
   it('renders LyricCard', () => {
-    const wrapper = shallow(<LyricCard lyric={'asdga'} />);
+    const wrapper = shallow(<LyricCard lyric={'test string'} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

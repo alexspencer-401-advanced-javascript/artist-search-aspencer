@@ -4,7 +4,7 @@ import AlbumCard from './AlbumCard';
 
 describe('AlbumCard component', () => {
   it('renders AlbumCard', () => {
-    const wrapper = shallow(<AlbumCard id={'asdg'} title={'adshasdh'} image={'adsh'} name={'asdh'}/>);
+    const wrapper = shallow(<AlbumCard id={'test string'} title={'test string'} image={'test string'} name={'test string'}/>);
     expect(wrapper).toMatchSnapshot();
   });
 });

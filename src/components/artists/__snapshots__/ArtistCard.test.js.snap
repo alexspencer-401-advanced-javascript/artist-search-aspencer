@@ -5,16 +5,16 @@ exports[`ArtistCard component renders ArtistCard 1`] = `
   className="ArtistCard"
 >
   <Link
-    to="/albums/adsg/adsg"
+    to="/albums/test string/test string"
   >
     <p
       className="ArtistName"
     >
-      adsg
+      test string
     </p>
   </Link>
   <p>
-    adsg
+    test string
   </p>
   <p
     key="0"
