@@ -2,17 +2,25 @@
 
 exports[`Albums component renders Albums 1`] = `
 <Fragment>
-  <button
-    type="button"
+  <div
+    className="albumsdiv"
   >
-    Back
-  </button>
-  <button
-    type="button"
+    <button
+      className="buttonBack"
+      type="button"
+    >
+      Back
+    </button>
+    <button
+      className="buttonForward"
+      type="button"
+    >
+      Next
+    </button>
+  </div>
+  <ul
+    className="Albums"
   >
-    Next
-  </button>
-  <ul>
     <li
       key="053b7800-979f-4e7d-a15f-9f9fe2156687"
     >

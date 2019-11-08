@@ -7,7 +7,9 @@ exports[`ArtistCard component renders ArtistCard 1`] = `
   <Link
     to="/albums/adsg/adsg"
   >
-    <p>
+    <p
+      className="ArtistName"
+    >
       adsg
     </p>
   </Link>
